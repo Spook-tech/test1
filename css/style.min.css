@@ -3154,7 +3154,7 @@ body {
 .blog-swiper-slide-box__link-img {
    border-radius: 15px;
    width: 407px;
-   height: 226px;
+   height: 266px;
    object-fit: cover;
 }
 .blog-swiper-slide-box__title-link {
@@ -8536,7 +8536,7 @@ body {
 
 .rating .product-item-top__link-img {
    width: 300px;
-   height: 450px;
+   height: 100%;
    object-fit: cover;
 }
 .catalog__item .product-item-top__link-img {
@@ -8546,7 +8546,7 @@ body {
 }
 .promotions .product-item-top__link-img{
    width: 620px;
-   height: 319px;
+   height: 100%;
    object-fit: cover;
 }
 .blog__top-img{
@@ -9742,6 +9742,7 @@ body {
    }
    .blog-swiper-slide-box__link-img {
        width: 320px;
+       height: 210px;
    }
    .blog-swiper-pagination {
        top: 190px;
