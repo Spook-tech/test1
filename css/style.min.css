@@ -71,6 +71,9 @@ h6 {
    font-size: inherit;
    font-weight: 400;
 }
+body { 
+   zoom: 0.9 ;
+} 
 .slick-slider {
    position: relative;
    display: block;
@@ -1604,6 +1607,7 @@ body {
 }
 .header-bottom {
    border-bottom: 1px solid #13101b;
+   transition: .25s;
 }
 .header-bottom__inner {
    display: -webkit-box;
@@ -8562,7 +8566,9 @@ body {
 .main-search .product-item-top{
    width: 225px;
 }
-
+.hideHeader{
+   opacity: 0; 
+}
 
 @media (max-width: 1290px) {
    .main-piracy__partners {
