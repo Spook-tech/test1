@@ -9569,6 +9569,7 @@ body {
        -webkit-box-pack: start;
        -ms-flex-pack: start;
        justify-content: flex-start;
+       margin-top: 20px;
    }
    .catalog__item .product-item-bottom-btns {
        display: -webkit-box;
