@@ -6889,9 +6889,9 @@ body {
 .squad-header__inner {
    z-index: 100;
    background: transparent;
-   -webkit-transition: background 0.5s;
-   -o-transition: background 0.5s;
-   transition: background 0.5s;
+   -webkit-transition: all 0.5s;
+   -o-transition: all 0.5s;
+   transition: all 0.5s;
 }
 .header--active .buying-block {
    display: none;
