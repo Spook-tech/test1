@@ -6849,7 +6849,6 @@ body {
    padding-bottom: 35px;
 }
 .squad-header {
-   background-image: url(../images/squad-header-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top center;
@@ -6878,7 +6877,7 @@ body {
 .squad-header__inner {
    position: -webkit-sticky;
    position: sticky;
-   top: 0;
+   top:   0;
    padding-top: 20px;
    position: fixed;
    left: 0;
@@ -8573,6 +8572,7 @@ body {
    position: fixed;
    z-index: 100;
    transition: all 1s ease 0s;
+   pointer-events: none;
 }
 
 .header-top__lang, nav.menu,.header-top__account{
@@ -9370,6 +9370,7 @@ body {
    }
 }
 @media (max-width: 700px) {
+   
    .play-now-swiper-slide-box {
        margin-left: 30px;
        margin-right: 30px;
@@ -10732,12 +10733,17 @@ body {
 }
 @media (max-width: 700px) {
    .squad-header {
-       background-image: url(../images/squad-header-bg-mobile.png);
-       background-size: contain;
+      background-size: contain;
    }
    .squad-header-content {
        gap: 60px;
    }
+}
+@media (min-width: 700px) {
+   .squad-header {
+      background: url(../images/squad-header-bg.png) !important;
+   }
+
 }
 @media (max-width: 700px) and (max-width: 1290px) {
    .squad-header-content {
