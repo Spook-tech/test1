@@ -6884,7 +6884,8 @@ body {
    right: 0;
 }
 .squad-header--scroll .squad-header__inner {
-   background: #06030f;
+   background: 
+   #06030f;
 }
 .squad-header__inner {
    z-index: 100;
