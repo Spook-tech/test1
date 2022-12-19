@@ -70,9 +70,6 @@ h5,
 h6 {
    font-size: inherit;
    font-weight: 400;
-}
-body { 
-   zoom: 0.9 ;
 } 
 .slick-slider {
    position: relative;
@@ -11603,5 +11600,10 @@ body {
    }
    .advantages-top__img {
        display: none;
+   }
+}
+@media (min-width: 1151px) {
+   body { 
+      zoom: 0.9 ;
    }
 }
