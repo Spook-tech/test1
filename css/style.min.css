@@ -9970,7 +9970,7 @@ body {
       align-items: center;
    }
    .buying-section-aside__title {
-       display: none;
+      margin-top: 15px;
    }
    .buying-section-aside__img-top {
        display: none;
