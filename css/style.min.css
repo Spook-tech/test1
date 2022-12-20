@@ -10742,6 +10742,7 @@ body {
 @media (min-width: 700px) {
    .squad-header {
       background: url(../images/squad-header-bg.png) !important;
+      background-size: cover !important;
    }
 
 }
@@ -11604,6 +11605,6 @@ body {
 }
 @media (min-width: 1151px) {
    body { 
-      zoom: 0.9 ;
+      zoom: 0.9;
    }
 }
