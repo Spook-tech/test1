@@ -2425,6 +2425,11 @@ body {
    fill: #77be1d;
    stroke: #77be1d !important;
 }
+.squad-header-content-box__buttons-favorite svg{
+   -webkit-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   transition: all 0.3s;
+}
 .product-item-bottom {
    min-height: 110px;
    display: -webkit-box;
