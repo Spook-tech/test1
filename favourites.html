@@ -60,9 +60,246 @@
           </div>
         </div>
       </header>
-      <main class="test-page">
-        <div class="test-page__container"> <a class="hover__effect-line" href="main.html">Головная сторінка </a><a class="hover__effect-line" href="order.html">Сторінка замовлення </a><a class="hover__effect-line" href="info.html">Сторінка інфо </a><a class="hover__effect-line" href="thanks.html">Сторінка подяки </a><a class="hover__effect-line" href="account.html">Сторінка аккаунту </a><a class="hover__effect-line" href="catalog.html">Сторінка каталогу </a><a class="hover__effect-line" href="item.html">Сторінка товару </a><a class="hover__effect-line" href="favourites.html">Сторінка Список бажань </a></div>
+      <main>
+        <div class="catalog__top-menu"> 
+          <div class="catalog__top-menu__container"> 
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__link"><a href="index.html">Головна</a></li><span class="decor">/</span>
+              <li class="breadcrumbs__link"><a href="index.html">Каталог</a></li>
+            </ul>
+            <div class="catalog__filters-menu"><img src="img/Options.svg" alt=""/><span>ФІЛЬТР</span><span class="catalog__filters-menu-number">11</span>
+              <div class="filters-block-wrapper"> 
+                <div class="filters-block"> 
+                  <form action=""> 
+                    <div class="filters-block__colors"> 
+                      <div class="filters-block__title">КОЛІР</div>
+                      <div class="filters-block__items">
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-white"/>
+                          <label class="decor" for="filters-color-white"></label>
+                          <label class="filter-white filter-circle" for="filters-color-white">білий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-gold"/>
+                          <label class="decor" for="filters-color-gold"></label>
+                          <label class="filter-gold filter-circle" for="filters-color-gold">золотий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-pink"/>
+                          <label class="decor" for="filters-color-pink"></label>
+                          <label class="filter-pink filter-circle" for="filters-color-pink">рожевий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-light-pink"/>
+                          <label class="decor" for="filters-color-light-pink"></label>
+                          <label class="filter-light-pink filter-circle" for="filters-color-light-pink">блідно-рожевий</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-green"/>
+                          <label class="decor" for="filters-color-green"></label>
+                          <label class="filter-green filter-circle" for="filters-color-green">зелений</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-color" id="filters-color-dark-blue"/>
+                          <label class="decor" for="filters-color-dark-blue"></label>
+                          <label class="filter-dark-blue filter-circle" for="filters-color-dark-blue">темно-синій</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filters-block__sizes">
+                      <div class="filters-block__title">РОЗМІР</div>
+                      <div class="filters-block__items">
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-M"/>
+                          <label class="decor" for="filters-size-M"></label>
+                          <label for="filters-size-M">M </label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-XS"/>
+                          <label class="decor" for="filters-size-XS"></label>
+                          <label for="filters-size-XS">XS </label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-S"/>
+                          <label class="decor" for="filters-size-S"></label>
+                          <label for="filters-size-S">S </label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-L"/>
+                          <label class="decor" for="filters-size-L"></label>
+                          <label for="filters-size-L">L</label>
+                        </div>
+                        <div class="filters-block__item">
+                          <input type="radio" name="filters-size" id="filters-size-XL"/>
+                          <label class="decor" for="filters-size-XL"></label>
+                          <label for="filters-size-XL">XL</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filters-block__buttons">
+                      <button class="filters-block__button button-gray">ЗАСТОСУВАТИ</button>
+                      <button class="filters-block__button button-gray-border">СКИНУТИ ВСЕ</button>
+                    </div>
+                    <div class="catalog__tags">
+                      <div class="catalog__tag tag">
+                        <div class="tag__icon"><img src="img/close.svg" alt=""/></div>
+                        <div class="tag__text">Bestsellers</div>
+                      </div>
+                      <div class="catalog__tag tag">
+                        <div class="tag__icon"><img src="img/circle.svg" alt=""/></div>
+                        <div class="tag__text">білий</div>
+                      </div>
+                      <div class="catalog__tag tag">
+                        <div class="tag__text">Розмір: M</div>
+                      </div>
+                      <div class="catalog__tag tag">
+                        <div class="tag__icon"><img src="img/close.svg" alt=""/></div>
+                        <div class="tag__text">Скинути все</div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="empty-favourites"> 
+          <div class="empty-favourites__container"> 
+            <div class="empty-favourites__text"> 
+              <div class="empty-favourites__icon"> <img src="img/like.svg" alt=""/></div><span>ВАШ СПИСОК БАЖАНЬ ПОРОЖНІЙ</span>
+            </div>
+            <div class="empty-favourites__buttons"> 
+              <button class="empty-favourites__button button-gray popup-link" href="#login-popup">УВІЙТИ ДО ОСОБИСТОГО АККАУНТУ</button><a class="empty-favourites__button button-gray-border" href="catalog.html">ПЕРЕЙТИ ДО КАТАЛОГУ</a>
+            </div>
+          </div>
+        </section>
+        <section class="favourites _active">
+          <div class="catalog__container"> 
+            <div class="catalog__tags">
+              <div class="catalog__tag tag">
+                <div class="tag__icon"><img src="img/close.svg" alt=""/></div>
+                <div class="tag__text">Bestsellers</div>
+              </div>
+              <div class="catalog__tag tag">
+                <div class="tag__icon"><img src="img/circle.svg" alt=""/></div>
+                <div class="tag__text">білий</div>
+              </div>
+              <div class="catalog__tag tag">
+                <div class="tag__text">Розмір: M</div>
+              </div>
+              <div class="catalog__tag tag">
+                <div class="tag__icon"><img src="img/close.svg" alt=""/></div>
+                <div class="tag__text">Скинути все</div>
+              </div>
+            </div>
+            <div class="catalog__items">            
+              <div class="product__card">
+                <div class="product__card__like"> <img src="img/like-fill.svg" alt=""/></div>
+                <div class="product__card__img"><picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                <div class="product__card__top">
+                  <div class="product__card__tags">
+                    <div class="product__card__tag product__card-sale">SALE</div>
+                  </div>
+                </div>
+                <form class="product__card__bottom">
+                  <div class="product__card__size">
+                    <p>
+                      <input id="size-XS_1" type="radio" name="size" checked=""/>
+                      <label for="size-XS_1">XS</label>
+                    </p>
+                    <p>
+                      <input id="size-S_1" type="radio" name="size"/>
+                      <label for="size-S_1">S</label>
+                    </p>
+                    <p>
+                      <input id="size-M_1" type="radio" name="size"/>
+                      <label for="size-M_1">M</label>
+                    </p>
+                    <p>
+                      <input id="size-L_1" type="radio" name="size"/>
+                      <label for="size-L_1">L</label>
+                    </p>
+                    <p>
+                      <input id="size-XL_1" type="radio" name="size"/>
+                      <label for="size-XL_1">XL</label>
+                    </p>
+                  </div>
+                  <div class="product__card__buy">
+                    <div class="product__card__color">
+                      <p>
+                        <input id="color-white_1" type="radio" name="color" checked=""/>
+                        <label for="color-white_1"></label>
+                      </p>
+                      <p>
+                        <input class="product-white-pink" id="color-white-pink_1" type="radio" name="color"/>
+                        <label for="color-white-pink_1"></label>
+                      </p>
+                      <p>
+                        <input class="product-green" id="color-green_1" type="radio" name="color"/>
+                        <label for="color-green_1"></label>
+                      </p>
+                    </div>
+                    <button class="product__card__btn add-to-cart"><span>+</span> ДОДАТИ В КОШИК</button>
+                  </div>
+                </form>
+              </div>
+              <div class="product__card">
+                <div class="product__card__like"> <img src="img/like-fill.svg" alt=""/></div>
+                <div class="product__card__img"><picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                <div class="product__card__top">
+                  <div class="product__card__tags">
+                    <div class="product__card__tag product__card-sale">SALE</div>
+                  </div>
+                </div>
+                <form class="product__card__bottom">
+                  <div class="product__card__size">
+                    <p>
+                      <input id="size-XS_2" type="radio" name="size" checked=""/>
+                      <label for="size-XS_2">XS</label>
+                    </p>
+                    <p>
+                      <input id="size-S_2" type="radio" name="size"/>
+                      <label for="size-S_2">S</label>
+                    </p>
+                    <p>
+                      <input id="size-M_2" type="radio" name="size"/>
+                      <label for="size-M_2">M</label>
+                    </p>
+                    <p>
+                      <input id="size-L_2" type="radio" name="size"/>
+                      <label for="size-L_2">L</label>
+                    </p>
+                    <p>
+                      <input id="size-XL_2" type="radio" name="size"/>
+                      <label for="size-XL_2">XL</label>
+                    </p>
+                  </div>
+                  <div class="product__card__buy">
+                    <div class="product__card__color">
+                      <p>
+                        <input id="color-white_2" type="radio" name="color" checked=""/>
+                        <label for="color-white_2"></label>
+                      </p>
+                      <p>
+                        <input class="product-white-pink" id="color-white-pink_2" type="radio" name="color"/>
+                        <label for="color-white-pink_2"></label>
+                      </p>
+                      <p>
+                        <input class="product-green" id="color-green_2" type="radio" name="color"/>
+                        <label for="color-green_2"></label>
+                      </p>
+                    </div>
+                    <button class="product__card__btn add-to-cart"><span>+</span> ДОДАТИ В КОШИК</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <div class="__container"> 
+        <button class="button-gray" id="empty-favourites-change-btn">Зробити сторінку пустою</button>
+      </div>
       <footer class="footer">
         <div class="footer__container">
           <div class="footer__top">

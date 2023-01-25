@@ -60,8 +60,204 @@
           </div>
         </div>
       </header>
-      <main class="test-page">
-        <div class="test-page__container"> <a class="hover__effect-line" href="main.html">Головная сторінка </a><a class="hover__effect-line" href="order.html">Сторінка замовлення </a><a class="hover__effect-line" href="info.html">Сторінка інфо </a><a class="hover__effect-line" href="thanks.html">Сторінка подяки </a><a class="hover__effect-line" href="account.html">Сторінка аккаунту </a><a class="hover__effect-line" href="catalog.html">Сторінка каталогу </a><a class="hover__effect-line" href="item.html">Сторінка товару </a><a class="hover__effect-line" href="favourites.html">Сторінка Список бажань </a></div>
+      <main>
+        <div class="breadcrumbs">
+          <div class="breadcrumbs__container">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__link back-to-shop"><a href="index.html">НАЗАД ДО МАГАЗИНУ</a></li>
+            </ul>
+          </div>
+        </div>
+        <section class="order-page">
+          <div class="order-page__container"> 
+            <div class="order-page__left-block"> 
+              <div class="order-page__items" data-spollers="" data-one-spoller="">
+                <div class="order-page__item order-page__contacts"> 
+                  <button class="order-page__title" tabindex="-1" type="button" data-spoller=""> <span class="number-circle">1</span>Контактні дані</button>
+                  <div class="order-page__item-questions">
+                    <div class="already__account border-bottom">
+                      <h1 class="already__account-title">У мене вже є особистий аккаунт</h1>
+                      <p class="already__account-text">Оформити замовлення зі збереженими даними.</p>
+                      <button class="already__account-btn button-gray popup-link" href="#already__account-popup">  Увійти</button>
+                    </div>
+                    <div class="order-page__subtitle">Купую у вас вперше</div>
+                    <form action="">
+                      <p>
+                        <label class="order-page-label" for="name">Ім’я</label>
+                        <input class="login-input" type="text" placeholder="Введіть Ваше ім’я" id="name"/>
+                      </p>
+                      <p>
+                        <label class="order-page-label" for="surname">Прізвище</label>
+                        <input class="login-input" type="text" placeholder="Введіть Ваше прізвище" id="surname"/>
+                      </p>
+                      <p>
+                        <label class="order-page-label" for="phone">Телефон</label>
+                        <input class="login-input" type="text" placeholder="Введіть Ваш номер телефону" id="phone"/>
+                      </p>
+                      <p class="login-checkbox">
+                        <input type="checkbox" name="without-register" checked="checked" id="without-register"/>
+                        <label class="decor" for="without-register"></label>
+                        <label for="without-register">Продовжити без реєстрації   </label>
+                      </p>
+                      <p class="order-page_email-wrapper">
+                        <label class="order-page-label" for="order-email">Електронна пошта</label>
+                        <input class="login-input" type="text" placeholder="Введіть Вашу електронну пошту" id="order-email"/>
+                        <label class="_error error-text">Неправильно введена електронна пошта</label>
+                      </p>
+                      <p>
+                        <label class="order-page-label" for="phone">Пароль</label>
+                        <input class="login-input input-password" type="password" placeholder="Введіть Ваш пароль" id="password"/>
+                        <button class="show-password-btn"><img src="img/eye.svg" alt=""/></button>
+                      </p>
+                      <button class="button-gray order-page__continue-btn">ПРОДОВЖИТИ</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="order-page__item order-page__delivery">
+                  <button class="order-page__title" tabindex="-1" type="button" data-spoller=""><span class="number-circle">2</span>Доставка</button>
+                  <div class="order-page__item-delivery">
+                    <div class="order-page__subtitle order-page__delivery__subtitles">Спосіб доставки</div>
+                    <form action="">
+                      <div class="order-page__delivery__methods">  
+                        <div class="order-page__delivery__method">
+                          <input type="radio" name="delivery__method" checked="checked" id="delivery__method-1"/>
+                          <div class="order-page__delivery__method-wrapper"> 
+                            <div class="order-page__delivery__method-title">Доставка у відділення Нової пошти</div>
+                            <div class="order-page__delivery__method-price">Вартість – 79 ₴</div>
+                          </div>
+                        </div>
+                        <div class="order-page__delivery__method">
+                          <input type="radio" name="delivery__method" id="delivery__method-2"/>
+                          <div class="order-page__delivery__method-wrapper"> 
+                            <div class="order-page__delivery__method-title">Доставка кур’єром Нової пошти</div>
+                            <div class="order-page__delivery__method-price">Вартість – 109 ₴</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="order-page__delivery__address">
+                        <div class="order-page__subtitle">Адреса доставки</div>
+                        <p>
+                          <label class="order-page-label" for="phone">Місто</label>
+                          <input class="login-input" type="text" placeholder="Введіть Ваше місто" id="phone"/>
+                        </p>
+                        <p>
+                          <label class="order-page-label" for="phone">Відділення</label>
+                          <input class="login-input" type="text" placeholder="Введіть номер відделення" id="phone"/>
+                        </p>
+                        <div class="order-page__delivery__gift-or-not">
+                          <p class="login-checkbox">
+                            <input type="radio" name="gift-or" checked="checked" id="gift-or-1"/>
+                            <label class="decor" for="gift-or-1"></label>
+                            <label for="gift-or-1">Це – подарунок   </label>
+                          </p>
+                          <p class="login-checkbox">
+                            <input type="radio" name="gift-or" id="gift-or-2"/>
+                            <label class="decor" for="gift-or-2"></label>
+                            <label for="gift-or-2">Отримувати буде інша людина   </label>
+                          </p>
+                        </div>
+                        <button class="button-gray order-page__continue-btn">ПРОДОВЖИТИ</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="order-page__item order-page__payment"> 
+                  <button class="order-page__title" tabindex="-1" type="button" data-spoller=""> <span class="number-circle">3</span>Оплата</button>
+                  <form action="">
+                    <div class="order-page__payment__choose"> 
+                      <div class="order-page__subtitle">Оберіть спосіб оплати</div>
+                      <div class="order-page__payment__select"> 
+                        <div class="order-page__payment__active-method order-page__payment__method">
+                          <input type="radio" checked="checked" id="payment-method"/>
+                          <label class="decor" for="payment-method"></label>
+                          <label class="order-page__payment__method__text" for="payment-method">Оплата картою на сайті онлайн</label>
+                        </div>
+                        <ul class="order-page__payment__methods"> 
+                          <li class="order-page__payment__method">
+                            <input type="radio" name="payment-method" checked="checked" id="payment-method1"/>
+                            <label class="decor" for="payment-method1"></label>
+                            <label class="order-page__payment__method__text" for="payment-method1">Оплата картою на сайті онлайн</label>
+                          </li>
+                          <li class="order-page__payment__method">
+                            <input type="radio" name="payment-method" id="payment-method2"/>
+                            <label class="decor" for="payment-method2"></label>
+                            <label class="order-page__payment__method__text" for="payment-method2">Післяплата у відділенні Нової пошти</label>
+                          </li>
+                          <li class="order-page__payment__method">
+                            <input type="radio" name="payment-method" id="payment-method3"/>
+                            <label class="decor" for="payment-method3"></label>
+                            <label class="order-page__payment__method__text" for="payment-method3"> LiqPay</label>
+                          </li>
+                        </ul>
+                      </div>
+                      <button class="button-gray order-page__continue-btn">ПРОДОВЖИТИ</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <aside class="order-page__right-block cart-block">
+              <div class="cart-block__title">МОЄ ЗАМОВЛЕННЯ</div>
+              <div class="cart-block__items"> 
+                <div class="cart-block__item"> 
+                  <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                  <div class="cart-block__item__info"> 
+                    <div class="cart-block__item__header"> 
+                      <div class="cart-block__item__name">Палантин</div>
+                      <button class="cart-block__item__like"> <img src="img/like.svg" alt=""/></button>
+                    </div>
+                    <div class="cart-block__item__price"> <span class="price-red">1110 ₴</span><span class="price-old">3122 ₴</span></div>
+                    <div class="cart-block__item__size">Розмір: XS</div>
+                    <div class="cart-block__item__color">Колір: білий</div>
+                    <div class="cart-block__item__footer"> 
+                      <div class="cart-block__item__number">12</div>
+                      <button class="cart-block__item__delete"> <img src="img/Trash.svg" alt=""/></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-block__item"> 
+                  <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                  <div class="cart-block__item__info"> 
+                    <div class="cart-block__item__header"> 
+                      <div class="cart-block__item__name">Палантин</div>
+                      <button class="cart-block__item__like"> <img src="img/like.svg" alt=""/></button>
+                    </div>
+                    <div class="cart-block__item__price"> <span class="price-red">1110 ₴</span><span class="price-old">3122 ₴</span></div>
+                    <div class="cart-block__item__size">Розмір: XS</div>
+                    <div class="cart-block__item__color">Колір: білий</div>
+                    <div class="cart-block__item__footer"> 
+                      <div class="cart-block__item__number">12</div>
+                      <button class="cart-block__item__delete"> <img src="img/Trash.svg" alt=""/></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-block__item"> 
+                  <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                  <div class="cart-block__item__info"> 
+                    <div class="cart-block__item__header"> 
+                      <div class="cart-block__item__name">Палантин</div>
+                      <button class="cart-block__item__like"> <img src="img/like.svg" alt=""/></button>
+                    </div>
+                    <div class="cart-block__item__price"> <span class="price-red">1110 ₴</span><span class="price-old">3122 ₴</span></div>
+                    <div class="cart-block__item__size">Розмір: XS</div>
+                    <div class="cart-block__item__color">Колір: білий</div>
+                    <div class="cart-block__item__footer"> 
+                      <div class="cart-block__item__number">12</div>
+                      <button class="cart-block__item__delete"> <img src="img/Trash.svg" alt=""/></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-block__prices"> 
+                <div class="cart-block__prices__starter-price cart-block__price">ПОЧАТКОВА ЦІНА<span class="price">3580 ₴</span></div>
+                <div class="cart-block__prices__sale-price cart-block__price">ЗНИЖКА<span class="price">-1300 ₴</span></div>
+                <div class="cart-block__prices__tovari-price cart-block__price">3 ТОВАРИ<span class="price">2400 ₴</span></div>
+                <div class="cart-block__prices__delivery-price cart-block__price">ДОСТАВКА<span class="price">79 ₴</span></div>
+                <div class="cart-block__prices__total-price cart-block__price"> <span>УСЬОГО (в тому числі з ПДВ)</span><span class="price">1350 ₴</span></div>
+              </div>
+            </aside>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="footer__container">

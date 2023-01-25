@@ -60,8 +60,162 @@
           </div>
         </div>
       </header>
-      <main class="test-page">
-        <div class="test-page__container"> <a class="hover__effect-line" href="main.html">Головная сторінка </a><a class="hover__effect-line" href="order.html">Сторінка замовлення </a><a class="hover__effect-line" href="info.html">Сторінка інфо </a><a class="hover__effect-line" href="thanks.html">Сторінка подяки </a><a class="hover__effect-line" href="account.html">Сторінка аккаунту </a><a class="hover__effect-line" href="catalog.html">Сторінка каталогу </a><a class="hover__effect-line" href="item.html">Сторінка товару </a><a class="hover__effect-line" href="favourites.html">Сторінка Список бажань </a></div>
+      <main class="account">
+        <div class="breadcrumbs">
+          <div class="breadcrumbs__container">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__link back-to-shop"><a href="index.html">НАЗАД ДО МАГАЗИНУ</a></li>
+            </ul>
+          </div>
+        </div>
+        <section class="personal__data"> 
+          <div class="personal__data__container"> 
+            <div class="personal__data__items"> 
+              <div class="personal__data__item"> 
+                <div class="account__title">Особисті дані</div>
+                <div class="personal__data__block"> 
+                  <div class="personal__data__name">Ім’я Прізвище</div>
+                  <div class="personal__data__phone">+380 50 350-55-55</div>
+                  <div class="personal__data__email">existing_email@gmail.com</div>
+                  <button class="personal__data__button button-gray popup-link" href="#edit-data-contacts">РЕДАГУВАТИ</button>
+                </div>
+              </div>
+              <div class="personal__data__item"> 
+                <div class="account__title">Адреса доставки</div>
+                <div class="personal__data__block"> 
+                  <div class="personal__data__city">м. Київ</div>
+                  <div class="personal__data__department">відділення Нової пошти №100 (вул. Інженерна, 1)</div>
+                  <button class="personal__data__button button-gray popup-link" href="#edit-data-delivery">РЕДАГУВАТИ</button>
+                </div>
+              </div>
+              <div class="personal__data__item"> 
+                <div class="account__title">Гаманець</div>
+                <div class="personal__data__block"> 
+                  <div class="personal__data__bank">Монобанк</div>
+                  <div class="personal__data__card">•••• •••• •••• 1234</div>
+                  <button class="personal__data__button button-gray popup-link" href="#edit-data-payment">РЕДАГУВАТИ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="orders"> 
+          <div class="orders__container"> 
+            <div class="account__title orders__title">Особисті дані</div>
+            <div class="orders__items" data-spollers="" data-one-spoller="">
+              <div class="order order__block">
+                <button class="order__title" tabindex="-1" type="button" data-spoller="">
+                  <div class="order__title__info"> <span class="order__title-gray order__title__date">від 19.12.2022</span><span class="order__title__number">№319999</span></div>
+                  <div class="order__title__price"><span class="order__title-gray order__title__price-text">сума замовлення</span><span class="order__title__number">1680 ₴</span></div>
+                  <div class="order__title__images"><span class="order__title__image"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></picture></span><span class="order__title__image"> <img src="img/main/woman2.png" alt=""/></span></div>
+                </button>
+                <div class="block__text">
+                  <div class="order__details">
+                    <div class="order__left-block"> 
+                      <div class="order__contacts order__block">
+                        <div class="order__contacts__text gray">Контактні дані</div>
+                        <div class="order__contacts__name">Ім’я Прізвище</div>
+                        <div class="order__contacts__phone">+380 50 350-55-55</div>
+                        <div class="order__contacts__email">existing_email@gmail.com</div>
+                      </div>
+                      <div class="order__delivery order__block">
+                        <div class="order__delivery__text gray">Доставка</div>
+                        <div class="order__delivery__city">м. Київ</div>
+                        <div class="order__delivery__department">відділення Нової пошти №100 (вул. Інженерна, 1)</div>
+                      </div>
+                      <div class="order__payment order__block">
+                        <div class="order__payment__text gray">Оплата</div>
+                        <div class="order__payment__name">Оплата картою на сайті</div>
+                      </div>
+                    </div>
+                    <aside class="order-page__right-block cart-block">
+                      <div class="cart-block__items"> 
+                        <div class="cart-block__item"> 
+                          <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                          <div class="cart-block__item__info"> 
+                            <div class="cart-block__item__header"> 
+                              <div class="cart-block__item__name">Палантин</div>
+                              <button class="cart-block__item__like"> 
+                                <div class="cart-block__item__number">1 шт.</div>
+                              </button>
+                            </div>
+                            <div class="cart-block__item__price"> <span class="price-gray">1600 ₴</span></div>
+                            <div class="cart-block__item__size">Розмір: XS</div>
+                            <div class="cart-block__item__color">Колір: білий</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart-block__prices"> 
+                        <div class="cart-block__prices__starter-price cart-block__price">ПОЧАТКОВА ЦІНА<span class="price">1600 ₴</span></div>
+                        <div class="cart-block__prices__delivery-price cart-block__price">ДОСТАВКА<span class="price">79 ₴</span></div>
+                        <div class="cart-block__prices__total-price cart-block__price"> <span>УСЬОГО (в тому числі з ПДВ)</span><span class="price">1679 ₴</span></div>
+                      </div>
+                      <div class="cart-block__buttons">
+                        <div class="cart-block__button button-gray">ПОВТОРИТИ ЗАМОВЛЕННЯ</div>
+                        <div class="cart-block__button button-gray-border">ДОДАТИ ТОВАРИ В МОЇ УЛЮБЛЕНІ</div>
+                      </div>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+              <div class="order order__block">
+                <button class="order__title" tabindex="-1" type="button" data-spoller="">
+                  <div class="order__title__info"> <span class="order__title-gray order__title__date">від 19.12.2022</span><span class="order__title__number">№319999</span></div>
+                  <div class="order__title__price"><span class="order__title-gray order__title__price-text">сума замовлення</span><span class="order__title__number">1680 ₴</span></div>
+                  <div class="order__title__images"><span class="order__title__image"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></picture></span><span class="order__title__image"> <img src="img/main/woman2.png" alt=""/></span></div>
+                </button>
+                <div class="block__text">
+                  <div class="order__details">
+                    <div class="order__left-block"> 
+                      <div class="order__contacts order__block">
+                        <div class="order__contacts__text gray">Контактні дані</div>
+                        <div class="order__contacts__name">Ім’я Прізвище</div>
+                        <div class="order__contacts__phone">+380 50 350-55-55</div>
+                        <div class="order__contacts__email">existing_email@gmail.com</div>
+                      </div>
+                      <div class="order__delivery order__block">
+                        <div class="order__delivery__text gray">Доставка</div>
+                        <div class="order__delivery__city">м. Київ</div>
+                        <div class="order__delivery__department">відділення Нової пошти №100 (вул. Інженерна, 1)</div>
+                      </div>
+                      <div class="order__payment order__block">
+                        <div class="order__payment__text gray">Оплата</div>
+                        <div class="order__payment__name">Оплата картою на сайті</div>
+                      </div>
+                    </div>
+                    <aside class="order-page__right-block cart-block">
+                      <div class="cart-block__items"> 
+                        <div class="cart-block__item"> 
+                          <div class="cart-block__item__img"> <picture><source srcset="img/main/woman2.webp" type="image/webp"><img src="img/main/woman2.png" alt=""/></picture></div>
+                          <div class="cart-block__item__info"> 
+                            <div class="cart-block__item__header"> 
+                              <div class="cart-block__item__name">Палантин</div>
+                              <button class="cart-block__item__like"> 
+                                <div class="cart-block__item__number">1 шт.</div>
+                              </button>
+                            </div>
+                            <div class="cart-block__item__price"> <span class="price-gray">1600 ₴</span></div>
+                            <div class="cart-block__item__size">Розмір: XS</div>
+                            <div class="cart-block__item__color">Колір: білий</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart-block__prices"> 
+                        <div class="cart-block__prices__starter-price cart-block__price">ПОЧАТКОВА ЦІНА<span class="price">1600 ₴</span></div>
+                        <div class="cart-block__prices__delivery-price cart-block__price">ДОСТАВКА<span class="price">79 ₴</span></div>
+                        <div class="cart-block__prices__total-price cart-block__price"> <span>УСЬОГО (в тому числі з ПДВ)</span><span class="price">1679 ₴</span></div>
+                      </div>
+                      <div class="cart-block__buttons">
+                        <div class="cart-block__button button-gray">ПОВТОРИТИ ЗАМОВЛЕННЯ</div>
+                        <div class="cart-block__button button-gray-border">ДОДАТИ ТОВАРИ В МОЇ УЛЮБЛЕНІ</div>
+                      </div>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="footer__container">

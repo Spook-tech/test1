@@ -60,8 +60,37 @@
           </div>
         </div>
       </header>
-      <main class="test-page">
-        <div class="test-page__container"> <a class="hover__effect-line" href="main.html">Головная сторінка </a><a class="hover__effect-line" href="order.html">Сторінка замовлення </a><a class="hover__effect-line" href="info.html">Сторінка інфо </a><a class="hover__effect-line" href="thanks.html">Сторінка подяки </a><a class="hover__effect-line" href="account.html">Сторінка аккаунту </a><a class="hover__effect-line" href="catalog.html">Сторінка каталогу </a><a class="hover__effect-line" href="item.html">Сторінка товару </a><a class="hover__effect-line" href="favourites.html">Сторінка Список бажань </a></div>
+      <main>
+        <div class="breadcrumbs">
+          <div class="breadcrumbs__container">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__link back-to-shop"><a href="index.html">НАЗАД ДО МАГАЗИНУ</a></li>
+            </ul>
+          </div>
+        </div>
+        <section class="info info__page">
+          <div class="info__container">
+            <h2>Текст</h2>
+            <div class="info__tabs">
+              <ul class="info__titles">
+                <li class="info__title">
+                  <button data-tab="delivery">ДОСТАВКА І ОПЛАТА</button>
+                </li>
+                <li class="info__title">
+                  <button class="_active" data-tab="return">ОБМІН ТА ПОВЕРНЕННЯ</button>
+                </li>
+                <li class="info__title">
+                  <button data-tab="sizes">РОЗМІРНА СІТКА</button>
+                </li>
+              </ul>
+              <ul class="info__texts">
+                <li class="info__text tab-text" id="tab-sizes"><span class="info__page__subtitle-mobile">РОЗМІРНА СІТКА</span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, velit?</li>
+                <li class="info__text tab-text _active" id="tab-return"><span class="info__page__subtitle-mobile">ОБМІН ТА ПОВЕРНЕННЯ</span>Будь-який одяг, що був придбаний у нас на сайті, можна обміняти чи повернути впродовж 14 днів після отримання посилки без слідів використання. <br/><br/> Вартість доставки чи комісії за накладенний платіж не компенсується, за винятком обміну виробничого браку з нашого боку. Обмін товару здійснюється на наступний день після отримання посилки з обміном від клієнта. У випадку повернення, кошти за товар відшкодовуються впродовж 5 днів після отримання посилки, на банківську картку клієнта.</li>
+                <li class="info__text tab-text" id="tab-delivery"><span class="info__page__subtitle-mobile">ДОСТАВКА І ОПЛАТА</span>Доставка по Україні здійснюється щодня при оформленні замовлення до 16:00. <br/><br/>Відправки по Україні здійснюємо кожного дня без вихідних (окрім днів, коли не працюють відділення Нової Пошти). Замовлення відправляється у день замовлення при умові, якщо воно було зроблено до 16.00. Плату за доставку клієнт сплачує на пошті при отримманні замовлення.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="footer__container">
